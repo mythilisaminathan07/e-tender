@@ -4,7 +4,7 @@ import axios from '../../api/axios';
 import { toast } from 'react-toastify';
 import {
   FileText, LogOut, ChevronLeft, Download,
-  CheckCircle, IndianRupee, User, Building2, Phone, Mail
+  CheckCircle, IndianRupee, User, Phone, Mail
 } from 'lucide-react';
 
 const statusColors = {
