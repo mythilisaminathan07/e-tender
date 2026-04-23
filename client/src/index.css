@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1, h2, h3, .serif {
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+  background-color: #f8f7f4;
+}
+
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.10);
+}
+
+.btn-primary {
+  background: #1a1a2e;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  letter-spacing: 0.3px;
+}
+
+.btn-primary:hover {
+  background: #16213e;
+  box-shadow: 0 4px 20px rgba(26,26,46,0.25);
+}
+
+input:focus {
+  outline: none;
+  border-color: #1a1a2e !important;
+  box-shadow: 0 0 0 3px rgba(26,26,46,0.08);
+}
